@@ -7,16 +7,16 @@ function Head() {
         </span>
       </div>
       <div className="flex w-full justify-center mt-5 pl-5 pr-5">
-        <h1 className="text-[1.4rem] font-bold  font-sans text-green-700">
+        <h1 className="text-[1.4rem] font-bold  font-sans text-[#7761c9]">
           What If I Told You Could Be Earning &#8358;50k-&#8358;300k/Month - All
           You Need Is A Phone, Good Internet, And 1hr/Day?{" "}
         </h1>
       </div>
       <div className="flex w-full  justify-center mt-4 pl-5 pr-5 text-gray-300 font-medium">
         <h5 className="max-w-260 text-[1rem] sm:text-[1.1rem]">
-          With one time payment of &#8358;3k affiliate registraton fee you get
-          acccess to Selar + a complete guide that takes you fom total begnner
-          to professional affiliate marketer. No product needed. No shipping. No
+          With one time payment of &#8358;3k affiliate fee you get acccess to
+          Selar + a complete guide that takes you fom total begnner to
+          professional affiliate marketer. No product needed. No shipping. No
           store You promote and earn 50-80% commisson.{" "}
         </h5>
       </div>

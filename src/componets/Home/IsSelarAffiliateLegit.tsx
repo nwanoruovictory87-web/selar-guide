@@ -7,8 +7,12 @@ function IsSelarAffiliateLegit() {
           <h5 className="">Is Selar Affilate Legit?</h5>
         </span>
       </span>
-      <span className="w-full h-fit mt-3">
-        <video className="w-full h-full" src={isSelarReal} controls></video>
+      <span className="w-full max-w-[700px] max-h-[50px] h-fit mt-3">
+        <video
+          className="w-full h-full max-h-[50px]"
+          src={isSelarReal}
+          controls
+        ></video>
       </span>
     </div>
   );

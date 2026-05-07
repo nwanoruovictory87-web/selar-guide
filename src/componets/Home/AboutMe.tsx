@@ -6,7 +6,7 @@ function AboutMe() {
           <h5>About Me </h5>
         </span>
       </span>
-      <div className="flex flex-col sm:flex-row sm:gap-3">
+      <div className="flex flex-col  ">
         <span className="mt-4 w-30 h-30 rounded-full bg-gray-500"></span>
         <div className="flex flex-col gap-4 mt-4 sm:mt-10">
           <span className="text-gray-200 font-semibold text-[1.1rem] sm:text-[1.3rem]">
@@ -27,7 +27,7 @@ function AboutMe() {
           </span>
           <div className="mt-3">
             <span className="text-[1.1rem] text-gray-300 font-semibold sm:text-[1.2rem]">
-              <h5>In this guide, i'm gigving you everything i learned.</h5>
+              <h5>In this guide, i'm giving you everything i learned.</h5>
             </span>
             <ul className=" list-disc pl-5 mt-2 text-gray-400 font-medium text-[1.1rem] sm:text-[1.2rem]">
               <li>My real experience working with Selar since 2023</li>

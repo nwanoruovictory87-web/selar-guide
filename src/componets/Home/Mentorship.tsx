@@ -18,7 +18,7 @@ function Mentorship() {
             quitting their main job{" "}
           </h5>
         </span>
-        <div className="mt-4 flex flex-col gap-4 sm:grid sm:grid-cols-3">
+        <div className="mt-4 flex flex-col gap-4 sm:grid sm:grid-cols-3 sm:bg-gray-900">
           <span className="flex flex-col border-2 rounded-md border-gray-400">
             <span className="flex flex-col gap-2 pl-2 pr-2 mt-2 mb-2">
               <h5 className="text-gray-200 font-bold text-[1.1rem] sm:text-[1.2rem]">

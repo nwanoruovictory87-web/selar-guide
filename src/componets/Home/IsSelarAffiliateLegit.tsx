@@ -15,12 +15,20 @@ function IsSelarAffiliateLegit() {
           All unedited
         </h5>
       </span>
-      <div className="flex flex-col gap-2">
-        <span className="w-full max-w-175 border-2 p-1 border-gray-400 rounded-md h-fit mt-3">
-          <video className="w-full h-full " src={isSelarReal} controls></video>
+      <div className="flex flex-col gap-2 sm:flex-row sm:justify-around  lg:max-h-150">
+        <span className="w-full   border-2 p-1 border-gray-400 rounded-md lg:bg-gray-900  mt-3">
+          <video
+            className="w-full h-full object-fit"
+            src={isSelarReal}
+            controls
+          ></video>
         </span>
-        <span className="w-full max-w-175 border-2 p-1 border-gray-400 rounded-md h-fit mt-3">
-          <video className="w-full h-full " src={isSelarReal1} controls></video>
+        <span className="w-full  border-2 p-1 border-gray-400 rounded-md lg:bg-gray-900 mt-3">
+          <video
+            className="w-full h-full object-fit"
+            src={isSelarReal1}
+            controls
+          ></video>
         </span>
       </div>
       <div className="flex w-full  justify-center mt-4 pl-5 pr-5">

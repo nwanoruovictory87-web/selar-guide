@@ -43,17 +43,6 @@ function AboutMe() {
                 Give it a try- you'll be ammazed at what Selar can do for you.
               </h5>
             </span>
-            <span className="block mt-4 text-[1.1rem] text-gray-300 font-semibold sm:text-[1.2rem]">
-              <h5>Got A Qustion?</h5>
-            </span>
-            <span className="block mt-2  text-gray-400 font-medium text-[1.1rem] sm:text-[1.2rem]">
-              <h5>Reach out to us on our social handles</h5>
-            </span>
-            <div className="flex flex-wrap gap-4 mt-2 text-gray-200 text-[1.1rem] sm:text-[1.2rem]">
-              <span>WhatsApp</span>
-              <span>Facebook</span>
-              <span>Telegram</span>
-            </div>
           </div>
         </div>
       </div>

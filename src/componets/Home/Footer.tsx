@@ -39,9 +39,9 @@ function Footer() {
         </span>
       </div>
       <div className="flex justify-center mt-4">
-        <span className="flex flex-col gap-2 mt-2 text-gray-400 font-medium text-[1.1rem] sm:text-[1.2rem]">
+        <span className="flex flex-col gap-2 mt-2 text-gray-400 font-medium text-[0.7rem] sm:text-[1.2rem]">
           <h5>
-            2026 Selar Affiliate Guide. ALL rights reserved. Builts by Victory.
+            2026 Selar Affiliate Guide. ALL rights reserved. Builts by Victory
           </h5>
         </span>
       </div>

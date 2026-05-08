@@ -3,6 +3,8 @@ import WhatsAffilateMarketng from "../Top/WhatsAffilateMarketng";
 import IsSelarAffiliateLegit from "./IsSelarAffiliateLegit";
 import AboutMe from "./AboutMe";
 import Mentorship from "./Mentorship";
+import Motivation from "./Motivation";
+import Footer from "./Footer";
 function Home() {
   return (
     <>
@@ -11,6 +13,8 @@ function Home() {
       <IsSelarAffiliateLegit />
       <AboutMe />
       <Mentorship />
+      <Motivation />
+      <Footer />
     </>
   );
 }

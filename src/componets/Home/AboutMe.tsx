@@ -57,6 +57,11 @@ function AboutMe() {
           </div>
         </div>
       </div>
+      <div className="flex w-full  justify-center mt-4 pl-5 pr-5">
+        <span className="pl-4 pr-4 pt-2 pb-2 bg-[#fcaa11] text-[1rem] sm:text-[1.1rem] font-bold rounded-full text-[rgb(255,255,255)] buttonShadow">
+          <h5>Get ACCESS NOW</h5>
+        </span>
+      </div>
     </div>
   );
 }

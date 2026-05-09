@@ -51,7 +51,9 @@ function AboutMe() {
       </div>
       <div className="flex w-full  justify-center mt-4 pl-5 pr-5">
         <span className="pl-4 pr-4 pt-2 pb-2 bg-[#fcaa11] text-[1rem] sm:text-[1.1rem] font-bold rounded-full text-[rgb(255,255,255)] buttonShadow">
-          <a href="https://selar.com/p/q8o6?affiliate=vbp8x2">Get ACCESS NOW</a>
+          <a href="https://selar.com/p/q8o6?affiliate=vbp8x2" target="_blank">
+            Get ACCESS NOW
+          </a>
         </span>
       </div>
     </div>

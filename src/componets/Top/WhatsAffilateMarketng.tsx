@@ -41,7 +41,7 @@ function WhatsAffilateMarketng() {
         <div className="flex flex-col mt-5 ">
           <span>
             <span className="inline-block pb-2 border-b-2 border-[#7761c9] font-semibold text-gray-200 text-[1.1rem] sm:text-[1.3rem]">
-              <h5>**What You Get With &#8358;10k**</h5>
+              <h5>**What You Get With &#8358;10,500**</h5>
             </span>
             <div className=" mt-3 text-gray-400 text-[1.1rem] font-medium">
               <span className=" flex flex-col gap-3">
@@ -73,7 +73,7 @@ function WhatsAffilateMarketng() {
       <div className="flex w-full  justify-center mt-4 pl-5 pr-5">
         <span className="pl-4 pr-4 pt-2 pb-2 bg-[#fcaa11] text-[1rem] sm:text-[1.1rem] font-bold rounded-full text-[rgb(255,255,255)] buttonShadow">
           <a href="https://selar.com/p/q8o6?affiliate=vbp8x2" target="_blank">
-            Get ACCESS NOW
+            Get ACCESS NOW <strong>(&#8358;10,500)</strong>
           </a>
         </span>
       </div>

@@ -39,7 +39,7 @@ function AboutMe() {
               <li>How to get paid straight to your Nigerian bank account</li>
             </ul>
             <span className="block mt-4 text-[1.1rem] text-gray-300 font-semibold sm:text-[1.2rem]">
-              <h5>All of this for a one-time payment of &#8358;10k.</h5>
+              <h5>All of this for a one-time payment of &#8358;10,500.</h5>
             </span>
             <span className="block mt-2  text-gray-400 font-medium text-[1.1rem] sm:text-[1.2rem]">
               <h5>
@@ -52,7 +52,7 @@ function AboutMe() {
       <div className="flex w-full  justify-center mt-4 pl-5 pr-5">
         <span className="pl-4 pr-4 pt-2 pb-2 bg-[#fcaa11] text-[1rem] sm:text-[1.1rem] font-bold rounded-full text-[rgb(255,255,255)] buttonShadow">
           <a href="https://selar.com/p/q8o6?affiliate=vbp8x2" target="_blank">
-            Get ACCESS NOW
+            Get ACCESS NOW <strong>(&#8358;10,500)</strong>
           </a>
         </span>
       </div>

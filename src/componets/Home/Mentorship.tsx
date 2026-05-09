@@ -104,15 +104,15 @@ function Mentorship() {
         </div>
         <span className="block mt-2 text-gray-400 font-medium text-[1.1rem] sm:text-[1.2rem]">
           <h5>
-            These people started with the same &#8358;10k guide your'e about to
-            get. The only difference is they took action 30 days ago
+            These people started with the same &#8358;10,500 guide your'e about
+            to get. The only difference is they took action 30 days ago
           </h5>
         </span>
       </span>
       <div className="flex w-full  justify-center mt-4 pl-5 pr-5">
         <span className="pl-4 pr-4 pt-2 pb-2 bg-[#fcaa11] text-[1rem] sm:text-[1.1rem] font-bold rounded-full text-[rgb(255,255,255)] buttonShadow">
           <a href="https://selar.com/p/q8o6?affiliate=vbp8x2" target="_blank">
-            Get ACCESS NOW
+            Get ACCESS NOW <strong>(&#8358;10,500)</strong>
           </a>
         </span>
       </div>

@@ -8,7 +8,7 @@ function AboutMe() {
         </span>
       </span>
       <div className="flex flex-col  ">
-        <span className="mt-4 w-30 h-30 sm:w-40 sm:h-40 rounded-full bg-gray-500">
+        <span className="mt-4 w-40 h-40  rounded-full bg-gray-500">
           <img className="w-full h-full rounded-full" src={myImage}></img>
         </span>
         <div className="flex flex-col gap-4 mt-4 sm:mt-10">

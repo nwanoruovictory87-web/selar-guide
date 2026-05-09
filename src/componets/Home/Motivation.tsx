@@ -12,7 +12,7 @@ function Motivation() {
           just need to start
         </h5>
         <h5>
-          The people above started with the same &#8358;3k guide, same phone,
+          The people above started with the same &#8358;10k guide, same phone,
           and same doubts you have right now. The only difference is they acted{" "}
           <strong className="text-red-400">30</strong> days ago.
         </h5>
@@ -21,7 +21,7 @@ function Motivation() {
           you hitting that button.
         </h5>
         <h5>
-          &#8358;3k is less than a data bundle for a month. But it can be the
+          &#8358;10k is less than a data bundle for a month. But it can be the
           start of your first &#8358;50k month.
         </h5>
       </span>

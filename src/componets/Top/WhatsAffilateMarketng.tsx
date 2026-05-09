@@ -31,7 +31,7 @@ function WhatsAffilateMarketng() {
                 </li>
                 <li>
                   Creat your own course and keep{" "}
-                  <strong className="text-red-400">80</strong>% commission on
+                  <strong className="text-red-400">60</strong>% commission on
                   every sale
                 </li>
               </ul>
@@ -41,7 +41,7 @@ function WhatsAffilateMarketng() {
         <div className="flex flex-col mt-5 ">
           <span>
             <span className="inline-block pb-2 border-b-2 border-[#7761c9] font-semibold text-gray-200 text-[1.1rem] sm:text-[1.3rem]">
-              <h5>**What You Get With &#8358;3k**</h5>
+              <h5>**What You Get With &#8358;10k**</h5>
             </span>
             <div className=" mt-3 text-gray-400 text-[1.1rem] font-medium">
               <span className=" flex flex-col gap-3">
@@ -59,7 +59,7 @@ function WhatsAffilateMarketng() {
                   <strong className="text-red-400">3</strong> **
                   <strong className="text-red-400">50-80</strong>% Commission**
                   -&#8358;30k course = &#8358;24k for you. One sale pays you
-                  back 8x.
+                  back 2x.
                 </h5>
                 <h5>
                   <strong className="text-red-400">4</strong> **Instant
@@ -72,7 +72,7 @@ function WhatsAffilateMarketng() {
       </div>
       <div className="flex w-full  justify-center mt-4 pl-5 pr-5">
         <span className="pl-4 pr-4 pt-2 pb-2 bg-[#fcaa11] text-[1rem] sm:text-[1.1rem] font-bold rounded-full text-[rgb(255,255,255)] buttonShadow">
-          <h5>Get ACCESS NOW</h5>
+          <a href="https://selar.com/p/q8o6?affiliate=vbp8x2">Get ACCESS NOW</a>
         </span>
       </div>
     </div>

@@ -1,3 +1,4 @@
+import myImage from "/images/victory.jpg";
 function AboutMe() {
   return (
     <div className="pl-5 pr-5 mt-10 flex flex-col">
@@ -7,7 +8,9 @@ function AboutMe() {
         </span>
       </span>
       <div className="flex flex-col  ">
-        <span className="mt-4 w-30 h-30 rounded-full bg-gray-500"></span>
+        <span className="mt-4 w-30 h-30 sm:w-40 sm:h-40 rounded-full bg-gray-500">
+          <img className="w-full h-full rounded-full" src={myImage}></img>
+        </span>
         <div className="flex flex-col gap-4 mt-4 sm:mt-10">
           <span className="text-gray-200 font-semibold text-[1.1rem] sm:text-[1.3rem]">
             <h5>

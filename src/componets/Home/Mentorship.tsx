@@ -6,7 +6,7 @@ function Mentorship() {
     <div className="w-full pl-5 pr-5 mt-5">
       <span>
         <span className="inline-block pb-2 border-b-2 border-[#7761c9] font-semibold text-gray-200 text-[1.1rem] sm:text-[1.3rem]">
-          <h5>Students, Real Results From Selar Affiliate </h5>
+          <h5>Students, Results From Selar Affiliate </h5>
         </span>
         <span className="block mt-2 text-gray-400 font-medium text-[1.1rem] sm:text-[1.2rem]">
           <h5>
@@ -109,6 +109,11 @@ function Mentorship() {
           </h5>
         </span>
       </span>
+      <div className="flex w-full  justify-center mt-4 pl-5 pr-5">
+        <span className="pl-4 pr-4 pt-2 pb-2 bg-[#fcaa11] text-[1rem] sm:text-[1.1rem] font-bold rounded-full text-[rgb(255,255,255)] buttonShadow">
+          <h5>Get ACCESS NOW</h5>
+        </span>
+      </div>
     </div>
   );
 }

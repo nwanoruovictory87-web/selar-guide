@@ -5,7 +5,7 @@ function IsSelarAffiliateLegit() {
     <div className="w-full flex flex-col justify-center pl-5 pr-5 mt-5">
       <span className="text-[1.1rem]  font-semibold text-gray-200 sm:text-[1.3rem] ">
         <span className="inline-block pb-2 border-b-2 border-[#7761c9]">
-          <h5 className="">See Real Payouts From Selar Affiliates</h5>
+          <h5 className="">See Payouts From Selar Affiliates</h5>
         </span>
       </span>
       <span className="flex flex-col gap-2 mt-2 text-gray-400 font-medium text-[1.1rem] sm:text-[1.2rem]">

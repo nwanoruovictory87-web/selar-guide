@@ -2,11 +2,11 @@ function Motivation() {
   return (
     <div className="w-full pl-5 pr-5 mt-5">
       <span>
-        <span className="inline-block pb-2 border-b-2 border-[#7761c9] font-semibold text-gray-200 text-[1.1rem] sm:text-[1.3rem]">
+        <span className="inline-block pb-2 border-b-2 border-[#7761c9] font-semibold text-[#6e6e06] text-[1.1rem] sm:text-[1.3rem]">
           <h5>Start Before You Feel Ready </h5>
         </span>
       </span>
-      <span className="flex flex-col gap-2 mt-2 text-gray-400 font-medium text-[1.1rem] sm:text-[1.2rem]">
+      <span className="flex flex-col gap-2 mt-2 text-gray-800 font-medium text-[1.1rem] sm:text-[1.2rem]">
         <h5>
           You don't need to be an expert. You don't need a hug following. You
           just need to start

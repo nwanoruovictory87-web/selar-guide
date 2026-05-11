@@ -2,7 +2,7 @@ import videoGuide from "/videos/whatsAffiliateMarketing.mp4";
 function WhatsAffilateMarketng() {
   return (
     <div className="flex flex-col gap-3 w-full justify-center mt-5 pl-5 pr-5">
-      <span className="text-[1.1rem] text-center font-semibold text-gray-200 sm:text-[1.3rem] ">
+      <span className="text-[1.1rem] text-center font-semibold text-[#6e6e06] sm:text-[1.3rem] ">
         <span className="inline-block pb-2 border-b-2 border-[#7761c9]">
           <h5 className="">What Is Affiliate Marketing All About?</h5>
         </span>
@@ -15,10 +15,10 @@ function WhatsAffilateMarketng() {
       <div className="flex flex-col gap-4 lg:flex-row lg:gap-7 lg:justify-around lg:">
         <div className="flex flex-col  mt-5 ">
           <span>
-            <span className="inline-block pb-2 border-b-2 border-[#7761c9] font-semibold text-gray-200 text-[1.1rem] sm:text-[1.3rem]">
+            <span className="inline-block pb-2 border-b-2 border-[#7761c9] font-semibold text-[#6e6e06] text-[1.1rem] sm:text-[1.3rem]">
               <h5>How To Earn on Selar </h5>
             </span>
-            <div className=" mt-3 text-gray-400 text-[1.1rem] font-medium">
+            <div className=" mt-3 text-gray-800 text-[1.1rem] font-medium">
               <ul className=" list-disc pl-5 flex flex-col gap-3">
                 <li>
                   Promote any Selar product for FREE and earn{" "}
@@ -40,42 +40,35 @@ function WhatsAffilateMarketng() {
         </div>
         <div className="flex flex-col mt-5 ">
           <span>
-            <span className="inline-block pb-2 border-b-2 border-[#7761c9] font-semibold text-gray-200 text-[1.1rem] sm:text-[1.3rem]">
+            <span className="inline-block pb-2 border-b-2 border-[#7761c9] font-semibold text-[#6e6e06] text-[1.1rem] sm:text-[1.3rem]">
               <h5>**What You Get With &#8358;10,500**</h5>
             </span>
-            <div className=" mt-3 text-gray-400 text-[1.1rem] font-medium">
+            <div className=" mt-3 text-gray-800 text-[1.1rem] font-medium">
               <span className=" flex flex-col gap-3">
                 <h5>
                   <strong className="text-red-400">1</strong> **Full Selar
-                  Affiliate Access** - Start promoting{" "}
+                  Affiliate Access** Start promoting{" "}
                   <strong className="text-red-400">1000</strong>+ digital
                   products immediately
                 </h5>
                 <h5>
                   <strong className="text-red-400">2</strong> ** Beginner To Pro
-                  Guide** -Step-by-step PDF + Guide Videos.
+                  Guide** Step-by-step PDF + Guide Videos.
                 </h5>
                 <h5>
                   <strong className="text-red-400">3</strong> **
                   <strong className="text-red-400">50-80</strong>% Commission**
-                  -&#8358;30k course = &#8358;24k for you. One sale pays you
-                  back 2x.
+                  &#8358;30k course = &#8358;24k for you. One sale pays you back
+                  2x.
                 </h5>
                 <h5>
                   <strong className="text-red-400">4</strong> **Instant
-                  Payouts** -Money goes straight to your Nigeria bank account.
+                  Payouts** Money goes straight to your Nigeria bank account.
                 </h5>
               </span>
             </div>
           </span>
         </div>
-      </div>
-      <div className="flex w-full  justify-center mt-4 pl-5 pr-5">
-        <span className="pl-4 pr-4 pt-2 pb-2 bg-[#fcaa11] text-[1rem] sm:text-[1.1rem] font-bold rounded-full text-[rgb(255,255,255)] buttonShadow">
-          <a href="https://selar.com/p/q8o6?affiliate=vbp8x2" target="_blank">
-            Get ACCESS NOW <strong>(&#8358;10,500)</strong>
-          </a>
-        </span>
       </div>
     </div>
   );

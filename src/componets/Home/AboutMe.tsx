@@ -3,8 +3,9 @@ function AboutMe() {
   return (
     <div className="pl-5 pr-5 mt-10 flex flex-col">
       <span>
-        <span className="inline-block pb-2 border-b-2 border-[#7761c9] font-semibold text-[#6e6e06] text-[1.1rem] sm:text-[1.3rem]">
+        <span className="flex w-fit pb-2 border-b-2 border-[#7761c9] font-semibold text-[#6e6e06] text-[1.1rem] sm:text-[1.3rem]">
           <h5>About Me </h5>
+          <i className="fa fa-user-circle mt-0.5 ml-1 text-[1.5rem] sm:text-[1.9rem]"></i>
         </span>
       </span>
       <div className="flex flex-col  ">
@@ -35,7 +36,9 @@ function AboutMe() {
             <ul className=" list-disc pl-5 mt-2 text-gray-800 font-medium text-[1.1rem] sm:text-[1.2rem]">
               <li>My real experience working with Selar since 2023</li>
               <li>How to pick top-selling products that actually convert</li>
-              <li>How to promote without spamming on WhatsApp or Twitter</li>
+              <li>
+                How to promote without spamming on WhatsApp, Facebook & Twitter
+              </li>
               <li>How to get paid straight to your Nigerian bank account</li>
             </ul>
             <span className="block mt-4 text-[1.1rem] text-gray-800 font-semibold sm:text-[1.2rem]">
@@ -43,7 +46,7 @@ function AboutMe() {
             </span>
             <span className="block mt-2  text-gray-800 font-medium text-[1.1rem] sm:text-[1.2rem]">
               <h5>
-                Give it a try- you'll be ammazed at what Selar can do for you.
+                Give it a try- you'll be amazed at what Selar can do for you.
               </h5>
             </span>
           </div>

@@ -1,6 +1,5 @@
 import Head from "../Top/Head";
 import WhatsAffilateMarketng from "../Top/WhatsAffilateMarketng";
-import IsSelarAffiliateLegit from "./IsSelarAffiliateLegit";
 import AboutMe from "./AboutMe";
 import Mentorship from "./Mentorship";
 import Motivation from "./Motivation";
@@ -10,7 +9,6 @@ function Home() {
     <>
       <Head />
       <WhatsAffilateMarketng />
-      <IsSelarAffiliateLegit />
       <AboutMe />
       <Mentorship />
       <Motivation />

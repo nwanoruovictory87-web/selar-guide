@@ -1,15 +1,27 @@
+import { useRef, useEffect } from "react";
 import proof1 from "/images/John-E.jpeg";
 import proof2 from "/images/Sarah-A.jpg";
 import proof3 from "/images/Blessing-k.jpeg";
 function Mentorship() {
+  const buttonRef = useRef<HTMLSpanElement | null>(null);
+  useEffect(() => {
+    if (!buttonRef.current) return;
+    setInterval(() => {
+      buttonRef.current?.classList.add("shake-btn");
+      setTimeout(() => {
+        buttonRef.current?.classList.remove("shake-btn");
+      }, 1000);
+    }, 3000);
+  }, []);
   return (
     <>
-      <div className="w-full bg-yellow-500 pt-4 pb-4 pl-5 pr-5 mt-5">
-        <span>
-          <span className="inline-block pb-2 border-b-2 border-[#7761c9] font-semibold text-gray-50 text-[1.1rem] sm:text-[1.3rem]">
+      <div className="w-full  pt-4 pb-4 pl-5 pr-5 mt-5">
+        <span className="">
+          <span className="flex w-fit pb-2 border-b-2 border-[#7761c9] font-semibold text-[#6e6e06] text-[1.1rem] sm:text-[1.3rem]">
             <h5>Students, Results From Selar Affiliate </h5>
+            <i className="fa fa-arrow-trend-up ml-1 mt-0.5 text-[1.5rem] sm:text-[1.9rem]"></i>
           </span>
-          <span className="block mt-2 text-gray-50 font-medium text-[1.1rem] sm:text-[1.2rem]">
+          <span className="block mt-2 text-gray-800 font-medium text-[1.1rem] sm:text-[1.2rem]">
             <h5>
               These are students, 9-5 workers, and stay-at-home moms/dads who
               tried Selar affiliate for the first time.
@@ -105,16 +117,19 @@ function Mentorship() {
               </span>
             </span>
           </div>
-          <span className="block mt-2 text-gray-50 font-medium text-[1.1rem] sm:text-[1.2rem]">
+          <span className="block mt-2 text-gray-800 font-medium text-[1.1rem] sm:text-[1.2rem]">
             <h5>
-              These people started with the same &#8358;10,500 guide your'e
+              These people started with the same &#8358;10,500 guide you're
               about to get. The only difference is they took action 30 days ago
             </h5>
           </span>
         </span>
       </div>
       <div className="flex w-full  justify-center mt-4 pl-5 pr-5">
-        <span className="pl-4 pr-4 pt-2 pb-2 bg-blue-400 text-[1rem] sm:text-[1.1rem] font-bold rounded-full text-[rgb(255,255,255)] buttonShadow">
+        <span
+          className="pl-4 pr-4 pt-2 pb-2 bg-blue-400 text-[1rem] sm:text-[1.1rem] font-bold rounded-full text-[rgb(255,255,255)] buttonShadow"
+          ref={buttonRef}
+        >
           <a href="https://selar.com/p/q8o6?affiliate=vbp8x2" target="_blank">
             Get ACCESS NOW <strong>(&#8358;10,500)</strong>
           </a>

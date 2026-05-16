@@ -48,7 +48,7 @@ function WhatsAffilateMarketng() {
       alert("Error playing last video:" + error);
     }
   };
-  const pauseLastVideo = async () => {
+  const pauseLastVideo = () => {
     if (!lastVideoRef.current) return;
     lastVideoRef.current.pause();
     setLastVideo(false);
@@ -71,7 +71,7 @@ function WhatsAffilateMarketng() {
       alert("Error playing third video:" + error);
     }
   };
-  const pauseThirdVideo = async () => {
+  const pauseThirdVideo = () => {
     if (!thirdVideoRef.current) return;
     thirdVideoRef.current.pause();
     setThirdVideo(false);
@@ -94,7 +94,7 @@ function WhatsAffilateMarketng() {
       alert("Error playing second video:" + error);
     }
   };
-  const pauseSecondVideo = async () => {
+  const pauseSecondVideo = () => {
     if (!secondVideoRef.current) return;
     secondVideoRef.current.pause();
     setSecondVideo(false);
@@ -117,7 +117,7 @@ function WhatsAffilateMarketng() {
       alert("Error playing first video:" + error);
     }
   };
-  const pauseFirstVideo = async () => {
+  const pauseFirstVideo = () => {
     if (!firstVideoRef.current) return;
     firstVideoRef.current.pause();
     setFirstVideo(false);

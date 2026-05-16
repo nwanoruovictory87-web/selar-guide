@@ -155,7 +155,10 @@ function WhatsAffilateMarketng() {
         <span className="w-full relative flex justify-center ">
           <span className="absolute w-full h-full">
             <span className=" flex justify-center items-center h-full">
-              <button onClick={firstVideo ? pauseFirstVideo : playFirstVideo}>
+              <button
+                className="w-full h-full cursor-pointer"
+                onClick={firstVideo ? pauseFirstVideo : playFirstVideo}
+              >
                 {firstVideo ? (
                   <i className="fa fa-pause text-[#ccc9c991] text-[4rem]"></i>
                 ) : (

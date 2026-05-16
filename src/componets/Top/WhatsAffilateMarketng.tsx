@@ -45,7 +45,7 @@ function WhatsAffilateMarketng() {
         setLastVideo(true);
       }
     } catch (error) {
-      alert("Error playing last video:" + error);
+      console.log("Error playing last video:" + error);
     }
   };
   const pauseLastVideo = () => {
@@ -68,7 +68,7 @@ function WhatsAffilateMarketng() {
         setThirdVideo(true);
       }
     } catch (error) {
-      alert("Error playing third video:" + error);
+      console.log("Error playing third video:" + error);
     }
   };
   const pauseThirdVideo = () => {
@@ -91,7 +91,7 @@ function WhatsAffilateMarketng() {
         setSecondVideo(true);
       }
     } catch (error) {
-      alert("Error playing second video:" + error);
+      console.log("Error playing second video:" + error);
     }
   };
   const pauseSecondVideo = () => {
@@ -100,7 +100,6 @@ function WhatsAffilateMarketng() {
     setSecondVideo(false);
   };
   const playFirstVideo = async () => {
-    alert("Playing first video");
     try {
       if (!firstVideoRef.current) return;
       if (!isFirstVideoPlaying) {
@@ -115,7 +114,7 @@ function WhatsAffilateMarketng() {
         setFirstVideo(true);
       }
     } catch (error) {
-      alert("Error playing first video:" + error);
+      console.log("Error playing first video:" + error);
     }
   };
   const pauseFirstVideo = () => {
@@ -153,26 +152,21 @@ function WhatsAffilateMarketng() {
           </span>
         </span>
         <span className="w-full relative flex justify-center ">
-          <span className="absolute w-full h-full">
-            <span className=" flex justify-center items-center h-full">
-              <button
-                className="w-full h-full cursor-pointer"
-                onClick={() => alert("Video is loading, please wait...")}
-              >
-                {firstVideo ? (
-                  <i className="fa fa-pause text-[#ccc9c991] text-[4rem]"></i>
-                ) : (
-                  <i className="fa fa-play text-[#ccc9c991] text-[4rem]"></i>
-                )}
-              </button>
-            </span>
-          </span>
+          <button
+            className="absolute inset-0 w-full h-full flex justify-center items-center bg-transparent cursor-pointer z-10 focus:outline-none"
+            onClick={firstVideo ? pauseFirstVideo : playFirstVideo}
+          >
+            {firstVideo ? (
+              <i className="fa fa-pause text-[#ccc9c991] text-[4rem]"></i>
+            ) : (
+              <i className="fa fa-play text-[#ccc9c991] text-[4rem]"></i>
+            )}
+          </button>
           <span className="inline-block w-full sm:max-w-175">
             <video
               className="w-full h-full"
               src={videoGuide}
               ref={firstVideoRef}
-              muted
             ></video>
           </span>
         </span>

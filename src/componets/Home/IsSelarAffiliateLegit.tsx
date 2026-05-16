@@ -68,17 +68,17 @@ function IsSelarAffiliateLegit(props: PropsBody) {
           <span className="w-full  relative      mt-3">
             <span className="absolute w-full h-full">
               <span className=" flex justify-center items-center h-full">
-                {secondVideo ? (
-                  <i
-                    className="fa fa-pause text-[#ccc9c991] text-[4rem]"
-                    onClick={secondVideoFuncPause}
-                  ></i>
-                ) : (
-                  <i
-                    className="fa fa-play text-[#ccc9c991] text-[4rem]"
-                    onClick={secondVideoFuncPlay}
-                  ></i>
-                )}
+                <button
+                  onClick={
+                    secondVideo ? secondVideoFuncPause : secondVideoFuncPlay
+                  }
+                >
+                  {secondVideo ? (
+                    <i className="fa fa-pause text-[#ccc9c991] text-[4rem]"></i>
+                  ) : (
+                    <i className="fa fa-play text-[#ccc9c991] text-[4rem]"></i>
+                  )}
+                </button>
               </span>
             </span>
             <video
@@ -90,17 +90,15 @@ function IsSelarAffiliateLegit(props: PropsBody) {
           <span className="w-full    relative    mt-3">
             <span className="absolute w-full h-full">
               <span className=" flex justify-center items-center h-full">
-                {lastVideo ? (
-                  <i
-                    className="fa fa-pause text-[#ccc9c991] text-[4rem]"
-                    onClick={lastVideoFuncPause}
-                  ></i>
-                ) : (
-                  <i
-                    className="fa fa-play text-[#ccc9c991] text-[4rem]"
-                    onClick={lastVideoFuncPlay}
-                  ></i>
-                )}
+                <button
+                  onClick={lastVideo ? lastVideoFuncPause : lastVideoFuncPlay}
+                >
+                  {lastVideo ? (
+                    <i className="fa fa-pause text-[#ccc9c991] text-[4rem]"></i>
+                  ) : (
+                    <i className="fa fa-play text-[#ccc9c991] text-[4rem]"></i>
+                  )}
+                </button>
               </span>
             </span>
             <video
@@ -112,17 +110,17 @@ function IsSelarAffiliateLegit(props: PropsBody) {
           <span className="w-full    relative    mt-3">
             <span className="absolute w-full h-full">
               <span className=" flex justify-center items-center h-full">
-                {thirdVideo ? (
-                  <i
-                    className="fa fa-pause text-[#ccc9c991] text-[4rem]"
-                    onClick={thirdVideoFuncPause}
-                  ></i>
-                ) : (
-                  <i
-                    className="fa fa-play text-[#ccc9c991] text-[4rem]"
-                    onClick={thirdVideoFuncPlay}
-                  ></i>
-                )}
+                <button
+                  onClick={
+                    thirdVideo ? thirdVideoFuncPause : thirdVideoFuncPlay
+                  }
+                >
+                  {thirdVideo ? (
+                    <i className="fa fa-pause text-[#ccc9c991] text-[4rem]"></i>
+                  ) : (
+                    <i className="fa fa-play text-[#ccc9c991] text-[4rem]"></i>
+                  )}
+                </button>
               </span>
             </span>
             <video

@@ -138,17 +138,13 @@ function WhatsAffilateMarketng() {
         <span className="w-full relative flex justify-center ">
           <span className="absolute w-full h-full">
             <span className=" flex justify-center items-center h-full">
-              {firstVideo ? (
-                <i
-                  className="fa fa-pause text-[#ccc9c991] text-[4rem]"
-                  onClick={pauseFirstVideo}
-                ></i>
-              ) : (
-                <i
-                  className="fa fa-play text-[#ccc9c991] text-[4rem]"
-                  onClick={playFirstVideo}
-                ></i>
-              )}
+              <button onClick={firstVideo ? pauseFirstVideo : playFirstVideo}>
+                {firstVideo ? (
+                  <i className="fa fa-pause text-[#ccc9c991] text-[4rem]"></i>
+                ) : (
+                  <i className="fa fa-play text-[#ccc9c991] text-[4rem]"></i>
+                )}
+              </button>
             </span>
           </span>
           <span className="inline-block w-full sm:max-w-175">

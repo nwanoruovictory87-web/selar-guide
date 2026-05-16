@@ -45,7 +45,7 @@ function WhatsAffilateMarketng() {
         setLastVideo(true);
       }
     } catch (error) {
-      console.error("Error playing last video:", error);
+      alert("Error playing last video:" + error);
     }
   };
   const pauseLastVideo = async () => {
@@ -68,7 +68,7 @@ function WhatsAffilateMarketng() {
         setThirdVideo(true);
       }
     } catch (error) {
-      console.error("Error playing third video:", error);
+      alert("Error playing third video:" + error);
     }
   };
   const pauseThirdVideo = async () => {
@@ -91,7 +91,7 @@ function WhatsAffilateMarketng() {
         setSecondVideo(true);
       }
     } catch (error) {
-      console.error("Error playing second video:", error);
+      alert("Error playing second video:" + error);
     }
   };
   const pauseSecondVideo = async () => {
@@ -114,7 +114,7 @@ function WhatsAffilateMarketng() {
         setFirstVideo(true);
       }
     } catch (error) {
-      console.error("Error playing first video:", error);
+      alert("Error playing first video:" + error);
     }
   };
   const pauseFirstVideo = async () => {

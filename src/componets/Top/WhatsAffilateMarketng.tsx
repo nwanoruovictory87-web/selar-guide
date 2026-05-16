@@ -172,6 +172,7 @@ function WhatsAffilateMarketng() {
               className="w-full h-full"
               src={videoGuide}
               ref={firstVideoRef}
+              muted
             ></video>
           </span>
         </span>

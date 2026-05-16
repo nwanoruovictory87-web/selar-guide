@@ -69,6 +69,7 @@ function IsSelarAffiliateLegit(props: PropsBody) {
             <span className="absolute w-full h-full">
               <span className=" flex justify-center items-center h-full">
                 <button
+                  className="w-full h-full cursor-pointer"
                   onClick={
                     secondVideo ? secondVideoFuncPause : secondVideoFuncPlay
                   }
@@ -85,12 +86,14 @@ function IsSelarAffiliateLegit(props: PropsBody) {
               className="w-full  h-full object-fill  rounded-md"
               src={isSelarReal}
               ref={secondVideoRef}
+              muted
             ></video>
           </span>
           <span className="w-full    relative    mt-3">
             <span className="absolute w-full h-full">
               <span className=" flex justify-center items-center h-full">
                 <button
+                  className="w-full h-full cursor-pointer"
                   onClick={lastVideo ? lastVideoFuncPause : lastVideoFuncPlay}
                 >
                   {lastVideo ? (
@@ -105,12 +108,14 @@ function IsSelarAffiliateLegit(props: PropsBody) {
               className="w-full h-full object-fill rounded-md"
               src={isSelarReal2}
               ref={lastVideoRef}
+              muted
             ></video>
           </span>
           <span className="w-full    relative    mt-3">
             <span className="absolute w-full h-full">
               <span className=" flex justify-center items-center h-full">
                 <button
+                  className="w-full h-full cursor-pointer"
                   onClick={
                     thirdVideo ? thirdVideoFuncPause : thirdVideoFuncPlay
                   }
@@ -127,6 +132,7 @@ function IsSelarAffiliateLegit(props: PropsBody) {
               className="w-full h-full object-fill rounded-md"
               src={isSelarReal1}
               ref={thirdVideoRef}
+              muted
             ></video>
           </span>
         </div>

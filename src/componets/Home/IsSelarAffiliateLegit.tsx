@@ -40,12 +40,13 @@ function IsSelarAffiliateLegit(props: PropsBody) {
   const buttonRef = useRef<HTMLSpanElement | null>(null);
   useEffect(() => {
     if (!buttonRef.current) return;
-    setInterval(() => {
+    const interval = setInterval(() => {
       buttonRef.current?.classList.add("shake-btn");
       setTimeout(() => {
         buttonRef.current?.classList.remove("shake-btn");
       }, 1000);
     }, 3000);
+    return () => clearInterval(interval);
   }, []);
 
   return (

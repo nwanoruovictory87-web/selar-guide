@@ -2,13 +2,13 @@ function Footer() {
   return (
     <div className="w-full pl-5 pr-5 mt-8 flex flex-col sm:gap-4 gap-2 mb-7">
       <div className="flex flex-wrap gap-3">
-        <span className="flex flex-col gap-2  text-gray-800 font-medium text-[1.1rem] sm:text-[1.2rem]">
+        <span className="flex flex-col gap-2  text-gray-800 font-medium text-[0.9rem] min-[400px]:text-[1.1rem] sm:text-[1.2rem]">
           <h5>Privacy Policy</h5>
         </span>
-        <span className="flex flex-col gap-2  text-gray-800 font-medium text-[1.1rem] sm:text-[1.2rem]">
+        <span className="flex flex-col gap-2  text-gray-800 font-medium text-[0.9rem] min-[400px]:text-[1.1rem] sm:text-[1.2rem]">
           <h5>Terms of Service</h5>
         </span>
-        <span className="flex items-center gap-1  text-gray-800 font-medium text-[1.1rem] sm:text-[1.2rem]">
+        <span className="flex items-center gap-1  text-gray-800 font-medium text-[0.9rem] min-[400px]:text-[1.1rem] sm:text-[1.2rem]">
           <span className="">
             <a
               className=""
@@ -23,7 +23,7 @@ function Footer() {
         </span>
       </div>
       <div className="flex justify-center mt-2">
-        <span className="flex flex-col gap-2  text-gray-800 font-medium text-[1.1rem] sm:text-[1.2rem]">
+        <span className="flex flex-col gap-2  text-gray-800 font-medium text-[0.9rem] min-[400px]:text-[1.1rem] sm:text-[1.2rem]">
           <h5>
             Results vary. Income depends on effort, consistency, and how well
             you apply the guide. This is not financial advice. Selar affiliate

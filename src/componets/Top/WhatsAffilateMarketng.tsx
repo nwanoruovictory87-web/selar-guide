@@ -143,11 +143,11 @@ function WhatsAffilateMarketng() {
   return (
     <>
       <div className="flex flex-col gap-3 w-full justify-center mt-5 pl-5 pr-5">
-        <span className="text-[1.1rem] text-center font-semibold text-[#6e6e06] sm:text-[1.3rem] ">
+        <span className="text-[0.9rem] min-[400px]:text-[1.1rem] text-center font-semibold text-[#6e6e06] sm:text-[1.3rem] ">
           <span className="flex justify-center">
             <span className="flex w-fit pb-2 border-b-2 border-[#7761c9]">
               <h5 className="">What Is Affiliate Marketing All About</h5>
-              <i className="fa fa-question-circle text-[1.5rem] sm:text-[1.9rem]"></i>
+              <i className="fa fa-question-circle text-[1.3rem] min-[400px]:text-[1.5rem] sm:text-[1.9rem]"></i>
             </span>
           </span>
         </span>
@@ -173,11 +173,11 @@ function WhatsAffilateMarketng() {
         <div className="flex flex-col gap-4 lg:flex-row lg:gap-7 lg:justify-around lg:">
           <div className="flex flex-col  mt-5 ">
             <span>
-              <span className="flex w-fit pb-2 border-b-2 border-[#7761c9] font-semibold text-[#6e6e06] text-[1.1rem] sm:text-[1.3rem]">
+              <span className="flex w-fit pb-2 border-b-2 border-[#7761c9] font-semibold text-[#6e6e06] text-[0.9rem] min-[400px]:text-[1.1rem] sm:text-[1.3rem]">
                 <h5>How To Earn on Selar </h5>
-                <i className="fa fa-piggy-bank mt-0.5 text-[1.5rem] sm:text-[1.9rem]"></i>
+                <i className="fa fa-piggy-bank mt-0.5 text-[1.3rem] min-[400px]:text-[1.5rem] sm:text-[1.9rem]"></i>
               </span>
-              <div className=" mt-3 text-gray-800 text-[1.1rem] font-medium">
+              <div className=" mt-3 text-gray-800 text-[0.9rem] min-[400px]:text-[1.1rem] font-medium">
                 <ul className=" list-disc pl-5 flex flex-col gap-3">
                   <li>
                     Promote any Selar product for FREE and earn{" "}
@@ -199,11 +199,11 @@ function WhatsAffilateMarketng() {
           </div>
           <div className="flex flex-col mt-5 ">
             <span>
-              <span className="flex w-fit pb-2 border-b-2 border-[#7761c9] font-semibold text-[#6e6e06] text-[1.1rem] sm:text-[1.3rem]">
+              <span className="flex w-fit pb-2 border-b-2 border-[#7761c9] font-semibold text-[#6e6e06] text-[0.9rem] min-[400px]:text-[1.1rem] sm:text-[1.3rem]">
                 <h5>What You Get With &#8358;10,500</h5>
-                <i className="fa fa-question-circle text-[1.5rem] sm:text-[1.9rem]"></i>
+                <i className="fa fa-question-circle text-[1.3rem] min-[400px]:text-[1.5rem] sm:text-[1.9rem]"></i>
               </span>
-              <div className=" mt-3 text-gray-800 text-[1.1rem] font-medium">
+              <div className=" mt-3 text-gray-800 text-[0.9rem] min-[400px]:text-[1.1rem] font-medium">
                 <span className=" flex flex-col gap-3">
                   <h5>
                     <strong className="text-red-400">1</strong> **Full Selar

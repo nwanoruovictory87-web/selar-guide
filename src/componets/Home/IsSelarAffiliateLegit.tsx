@@ -52,15 +52,15 @@ function IsSelarAffiliateLegit(props: PropsBody) {
   return (
     <>
       <div className="w-full pt-4 pb-4 flex flex-col  justify-center pl-5 pr-5 mt-5">
-        <span className="text-[1.1rem]   font-semibold text-[#6e6e06] sm:text-[1.3rem] ">
+        <span className="text-[0.9rem] min-[400px]:text-[1.1rem]   font-semibold text-[#6e6e06] sm:text-[1.3rem] ">
           <span className="flex w-fit pb-2 border-b-2 border-[#7761c9]">
             <h5 className="">Payouts From Selar Affiliates</h5>
-            <i className="fa fa-bank text-[1.5rem] sm:text-[1.9rem]"></i>
+            <i className="fa fa-bank text-[1.3rem] min-[400px]:text-[1.5rem] sm:text-[1.9rem]"></i>
           </span>
         </span>
-        <span className="flex flex-col   gap-2 mt-2 text-gray-800 font-medium text-[1.1rem] sm:text-[1.2rem]">
+        <span className="flex flex-col   gap-2 mt-2 text-gray-800 font-medium text-[0.9rem] min-[400px]:text-[1.1rem] sm:text-[1.2rem]">
           <h5>
-            Wacth short clips of affiliates showing their Selar dashboard,
+            Watch short clips of affiliates showing their Selar dashboard,
             withdrawal alerts, and talking about how they got their first sale.
             All unedited
           </h5>
@@ -124,7 +124,7 @@ function IsSelarAffiliateLegit(props: PropsBody) {
 
       <div className="flex w-full  justify-center mt-6 pl-5 pr-5 bg-white ">
         <span
-          className="pl-4 pr-4 pt-2 pb-2 bg-blue-400 text-[1rem] sm:text-[1.1rem] font-bold rounded-full text-[rgb(255,255,255)] buttonShadow"
+          className="pl-4 pr-4 pt-2 pb-2 bg-blue-400 text-[1rem] sm:text-[0.9rem] min-[400px]:text-[1.1rem] font-bold rounded-full text-[rgb(255,255,255)] buttonShadow"
           ref={buttonRef}
         >
           <a href="https://selar.com/p/q8o6?affiliate=vbp8x2" target="_blank">

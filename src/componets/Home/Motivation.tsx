@@ -3,12 +3,12 @@ function Motivation() {
     <>
       <div className="w-full pl-5 pr-5 mt-5">
         <span>
-          <span className="flex w-fit pb-2 border-b-2 border-[#7761c9] font-semibold text-[#6e6e06] text-[1.1rem] sm:text-[1.3rem]">
+          <span className="flex w-fit pb-2 border-b-2 border-[#7761c9] font-semibold text-[#6e6e06] text-[0.9rem] min-[400px]:text-[1.1rem] sm:text-[1.3rem]">
             <h5>Why become an Affiliate Marketer</h5>
-            <i className="fa fa-fire mt-0.5 ml-1 text-[1.5rem] sm:text-[1.9rem]"></i>
+            <i className="fa fa-fire mt-0.5 ml-1 text-[1.3rem] min-[400px]:text-[1.5rem] sm:text-[1.9rem]"></i>
           </span>
         </span>
-        <span className="flex flex-col gap-2 sm:gap-4 mt-2 text-gray-800 font-medium text-[1.1rem] sm:text-[1.2rem]">
+        <span className="flex flex-col gap-2 sm:gap-4 mt-2 text-gray-800 font-medium text-[0.9rem] min-[400px]:text-[1.1rem] sm:text-[1.2rem]">
           <h5>
             <strong className="text-red-400">1</strong>{" "}
             <strong>You make money while you sleep: </strong>Once your
@@ -46,12 +46,12 @@ function Motivation() {
       </div>
       <div className="w-full pl-5 pr-5 mt-5">
         <span>
-          <span className="flex w-fit pb-2 border-b-2 border-[#7761c9] font-semibold text-[#6e6e06] text-[1.1rem] sm:text-[1.3rem]">
+          <span className="flex w-fit pb-2 border-b-2 border-[#7761c9] font-semibold text-[#6e6e06] text-[0.9rem] min-[400px]:text-[1.1rem] sm:text-[1.3rem]">
             <h5>Start Before You Feel Ready </h5>
-            <i className="fa fa-dumbbell mt-0.5 ml-1 text-[1.5rem] sm:text-[1.9rem]"></i>
+            <i className="fa fa-dumbbell mt-0.5 ml-1 text-[1.3rem] min-[400px]:text-[1.5rem] sm:text-[1.9rem]"></i>
           </span>
         </span>
-        <span className="flex flex-col gap-2 mt-2 text-gray-800 font-medium text-[1.1rem] sm:text-[1.2rem]">
+        <span className="flex flex-col gap-2 mt-2 text-gray-800 font-medium text-[0.9rem] min-[400px]:text-[1.1rem] sm:text-[1.2rem]">
           <h5>
             You don't need to be an expert. You don't need a hug following. You
             just need to start
@@ -70,6 +70,14 @@ function Motivation() {
             the start of your first &#8358;100k month.
           </h5>
         </span>
+      </div>
+      <div className="flex w-full justify-center mt-5 pl-5 pr-5">
+        <h1 className="text-[1.2rem] sm:text-[1.3rem] font-bold  font-sans text-[#6e6e06]">
+          Most people wait for the perfect moment to start. The ones who change
+          their lives start now and make it perfect later. Your first commission
+          won’t come from waiting - it comes from registering, learning, and
+          acting before you feel ready.
+        </h1>
       </div>
     </>
   );

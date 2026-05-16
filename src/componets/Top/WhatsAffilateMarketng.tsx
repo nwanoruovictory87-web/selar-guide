@@ -100,6 +100,7 @@ function WhatsAffilateMarketng() {
     setSecondVideo(false);
   };
   const playFirstVideo = async () => {
+    alert("Playing first video");
     try {
       if (!firstVideoRef.current) return;
       if (!isFirstVideoPlaying) {

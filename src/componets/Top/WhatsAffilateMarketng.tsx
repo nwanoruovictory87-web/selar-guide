@@ -33,13 +33,13 @@ function WhatsAffilateMarketng() {
   const playLastVideo = async () => {
     if (!lastVideoRef.current) return;
     if (!isFirstVideoPlaying) {
-      lastVideoRef.current.play();
+      await lastVideoRef.current.play();
       setLastVideo(true);
       setIsFirstVideoPlaying(true);
     } else {
-      if (firstVideo) pauseFirstVideo();
-      if (secondVideo) pauseSecondVideo();
-      if (thirdVideo) pauseThirdVideo();
+      if (firstVideo) await pauseFirstVideo();
+      if (secondVideo) await pauseSecondVideo();
+      if (thirdVideo) await pauseThirdVideo();
       await lastVideoRef.current.play();
       setLastVideo(true);
     }
@@ -52,13 +52,13 @@ function WhatsAffilateMarketng() {
   const playThirdVideo = async () => {
     if (!thirdVideoRef.current) return;
     if (!isFirstVideoPlaying) {
-      thirdVideoRef.current.play();
+      await thirdVideoRef.current.play();
       setThirdVideo(true);
       setIsFirstVideoPlaying(true);
     } else {
-      if (firstVideo) pauseFirstVideo();
-      if (secondVideo) pauseSecondVideo();
-      if (lastVideo) pauseLastVideo();
+      if (firstVideo) await pauseFirstVideo();
+      if (secondVideo) await pauseSecondVideo();
+      if (lastVideo) await pauseLastVideo();
       await thirdVideoRef.current.play();
       setThirdVideo(true);
     }
@@ -71,13 +71,13 @@ function WhatsAffilateMarketng() {
   const playSecondVideo = async () => {
     if (!secondVideoRef.current) return;
     if (!isFirstVideoPlaying) {
-      secondVideoRef.current.play();
+      await secondVideoRef.current.play();
       setSecondVideo(true);
       setIsFirstVideoPlaying(true);
     } else {
-      if (firstVideo) pauseFirstVideo();
-      if (thirdVideo) pauseThirdVideo();
-      if (lastVideo) pauseLastVideo();
+      if (firstVideo) await pauseFirstVideo();
+      if (thirdVideo) await pauseThirdVideo();
+      if (lastVideo) await pauseLastVideo();
       await secondVideoRef.current.play();
       setSecondVideo(true);
     }
@@ -90,13 +90,13 @@ function WhatsAffilateMarketng() {
   const playFirstVideo = async () => {
     if (!firstVideoRef.current) return;
     if (!isFirstVideoPlaying) {
-      firstVideoRef.current.play();
+      await firstVideoRef.current.play();
       setFirstVideo(true);
       setIsFirstVideoPlaying(true);
     } else {
-      if (lastVideo) pauseLastVideo();
-      if (thirdVideo) pauseThirdVideo();
-      if (secondVideo) pauseSecondVideo();
+      if (lastVideo) await pauseLastVideo();
+      if (thirdVideo) await pauseThirdVideo();
+      if (secondVideo) await pauseSecondVideo();
       await firstVideoRef.current.play();
       setFirstVideo(true);
     }

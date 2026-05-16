@@ -31,17 +31,21 @@ function WhatsAffilateMarketng() {
   const firstVideoRef = useRef<HTMLVideoElement | null>(null);
   const thirdVideoRef = useRef<HTMLVideoElement | null>(null);
   const playLastVideo = async () => {
-    if (!lastVideoRef.current) return;
-    if (!isFirstVideoPlaying) {
-      await lastVideoRef.current.play();
-      setLastVideo(true);
-      setIsFirstVideoPlaying(true);
-    } else {
-      if (firstVideo) pauseFirstVideo();
-      if (secondVideo) pauseSecondVideo();
-      if (thirdVideo) pauseThirdVideo();
-      await lastVideoRef.current.play();
-      setLastVideo(true);
+    try {
+      if (!lastVideoRef.current) return;
+      if (!isFirstVideoPlaying) {
+        await lastVideoRef.current.play();
+        setLastVideo(true);
+        setIsFirstVideoPlaying(true);
+      } else {
+        if (firstVideo) pauseFirstVideo();
+        if (secondVideo) pauseSecondVideo();
+        if (thirdVideo) pauseThirdVideo();
+        await lastVideoRef.current.play();
+        setLastVideo(true);
+      }
+    } catch (error) {
+      console.error("Error playing last video:", error);
     }
   };
   const pauseLastVideo = async () => {
@@ -50,17 +54,21 @@ function WhatsAffilateMarketng() {
     setLastVideo(false);
   };
   const playThirdVideo = async () => {
-    if (!thirdVideoRef.current) return;
-    if (!isFirstVideoPlaying) {
-      await thirdVideoRef.current.play();
-      setThirdVideo(true);
-      setIsFirstVideoPlaying(true);
-    } else {
-      if (firstVideo) pauseFirstVideo();
-      if (secondVideo) pauseSecondVideo();
-      if (lastVideo) pauseLastVideo();
-      await thirdVideoRef.current.play();
-      setThirdVideo(true);
+    try {
+      if (!thirdVideoRef.current) return;
+      if (!isFirstVideoPlaying) {
+        await thirdVideoRef.current.play();
+        setThirdVideo(true);
+        setIsFirstVideoPlaying(true);
+      } else {
+        if (firstVideo) pauseFirstVideo();
+        if (secondVideo) pauseSecondVideo();
+        if (lastVideo) pauseLastVideo();
+        await thirdVideoRef.current.play();
+        setThirdVideo(true);
+      }
+    } catch (error) {
+      console.error("Error playing third video:", error);
     }
   };
   const pauseThirdVideo = async () => {
@@ -69,17 +77,21 @@ function WhatsAffilateMarketng() {
     setThirdVideo(false);
   };
   const playSecondVideo = async () => {
-    if (!secondVideoRef.current) return;
-    if (!isFirstVideoPlaying) {
-      await secondVideoRef.current.play();
-      setSecondVideo(true);
-      setIsFirstVideoPlaying(true);
-    } else {
-      if (firstVideo) pauseFirstVideo();
-      if (thirdVideo) pauseThirdVideo();
-      if (lastVideo) pauseLastVideo();
-      await secondVideoRef.current.play();
-      setSecondVideo(true);
+    try {
+      if (!secondVideoRef.current) return;
+      if (!isFirstVideoPlaying) {
+        await secondVideoRef.current.play();
+        setSecondVideo(true);
+        setIsFirstVideoPlaying(true);
+      } else {
+        if (firstVideo) pauseFirstVideo();
+        if (thirdVideo) pauseThirdVideo();
+        if (lastVideo) pauseLastVideo();
+        await secondVideoRef.current.play();
+        setSecondVideo(true);
+      }
+    } catch (error) {
+      console.error("Error playing second video:", error);
     }
   };
   const pauseSecondVideo = async () => {
@@ -88,17 +100,21 @@ function WhatsAffilateMarketng() {
     setSecondVideo(false);
   };
   const playFirstVideo = async () => {
-    if (!firstVideoRef.current) return;
-    if (!isFirstVideoPlaying) {
-      await firstVideoRef.current.play();
-      setFirstVideo(true);
-      setIsFirstVideoPlaying(true);
-    } else {
-      if (lastVideo) pauseLastVideo();
-      if (thirdVideo) pauseThirdVideo();
-      if (secondVideo) pauseSecondVideo();
-      await firstVideoRef.current.play();
-      setFirstVideo(true);
+    try {
+      if (!firstVideoRef.current) return;
+      if (!isFirstVideoPlaying) {
+        await firstVideoRef.current.play();
+        setFirstVideo(true);
+        setIsFirstVideoPlaying(true);
+      } else {
+        if (lastVideo) pauseLastVideo();
+        if (thirdVideo) pauseThirdVideo();
+        if (secondVideo) pauseSecondVideo();
+        await firstVideoRef.current.play();
+        setFirstVideo(true);
+      }
+    } catch (error) {
+      console.error("Error playing first video:", error);
     }
   };
   const pauseFirstVideo = async () => {
